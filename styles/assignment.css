@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: ;
+    
 }
 
 nav ul li {
@@ -52,12 +52,40 @@ nav ul{
     background-image: url(../images/Hero-bg.png);
     max-width: auto;
     height: 652px;
-    margin-top: 36px;
+    margin: 10px;
 }
 .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+     margin: 26px 630px 10px 630px;
+
+   
 }
 .banner-content{
     text-align: center;
-    margin-top: 32px;
+    margin-top: 100px;
+    gap: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+}
+.about-bg{
+    text-align: center;
+    box-shadow: rgba(13, 19, 33, 0.02);
+    margin-bottom: 50px;
+    padding: 80px 97px 80px 97px; 
+    margin-left: 70px;
+    margin-right: 70px;
+    
 }
