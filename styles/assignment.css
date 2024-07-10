@@ -53,17 +53,13 @@ nav ul{
 .banner{
     background-image: url(../images/Hero-bg.png);
     max-width: auto;
-    height: 652px;
-    margin: 10px;
+    height: 652px;    
 }
 .img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 26px 630px 10px 630px;
-
-   
+    align-items: center;  
 }
 .banner-content{
     text-align: center;
@@ -186,8 +182,8 @@ nav ul{
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
     color: rgb(13, 19, 33);
 }
 .skill-container{
@@ -228,4 +224,73 @@ nav ul{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+}
+.secondary-bg{
+    background-image: url(../images/handshake.jpg) ;
+    width: 1140px;
+    height: 314px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    justify-content: center;
+    margin-left: 315px;
+    margin-right: 315px;
+}
+.sub{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    margin-top: 35px;
+    border-radius: 8px;
+    margin-left: 16px;
+}
+.act{
+    width: 548px;
+    height: 57px;
+    margin-left: 0px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin-top: 35px;
+    
+
+}
+.bg{
+    text-align: center;
+}
+.text-st{
+    padding: 0px;
+    margin: 16px 0px;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.text-st2{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    opacity: 0.7;
+    margin: 16px 0px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(13, 19, 33, 0.03);
+    border-radius: 16px;
+    margin-top: 80px;
+    height: 100px;
+}
+.tion{
+    margin-top: 35px;
+    margin-right: 320px;
+    gap: 10px;
+}
+.text-tm{
+    margin-top: 35px;
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    margin-left: 320px;
 }
